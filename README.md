@@ -2,6 +2,8 @@
 
 A tiny plugin to check if there are any unsaved buffers before running [Snacks](https://github.com/folke/snacks.nvim).lazygit.
 
+![](img/confirm.png)
+
 ## Why?
 
 I use Snacks.lazygit regularly to launch lazygit in a NeoVim window by using `<leader>gg`.
@@ -14,7 +16,7 @@ For Lazy.nvim:
 ```lua
 return {
   {
-    "thelastpsion/lazygit-confim.nvim",
+    "thelastpsion/lazygit-confirm.nvim",
   },
 }
 ```
